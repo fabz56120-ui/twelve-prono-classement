@@ -4,67 +4,179 @@
     "classement": [
         {
             "position": 1,
-            "equipe": "Oyonnax Rugby"
+            "equipe": "Oyonnax Rugby",
+            "victoires": 3,
+            "nuls": 0,
+            "defaites": 0,
+            "pointsPour": 130,
+            "pointsContre": 63,
+            "difference": 67,
+            "points": 14
         },
         {
             "position": 2,
-            "equipe": "CA Brive"
+            "equipe": "CA Brive",
+            "victoires": 3,
+            "nuls": 0,
+            "defaites": 0,
+            "pointsPour": 98,
+            "pointsContre": 52,
+            "difference": 46,
+            "points": 13
         },
         {
             "position": 3,
-            "equipe": "Provence Rugby"
+            "equipe": "Provence Rugby",
+            "victoires": 3,
+            "nuls": 0,
+            "defaites": 0,
+            "pointsPour": 109,
+            "pointsContre": 65,
+            "difference": 44,
+            "points": 13
         },
         {
             "position": 4,
-            "equipe": "Biarritz Olympique PB"
+            "equipe": "Biarritz Olympique PB",
+            "victoires": 2,
+            "nuls": 0,
+            "defaites": 1,
+            "pointsPour": 99,
+            "pointsContre": 72,
+            "difference": 27,
+            "points": 10
         },
         {
             "position": 5,
-            "equipe": "Soyaux-Angoulême XV"
+            "equipe": "Soyaux-Angoulême XV",
+            "victoires": 2,
+            "nuls": 0,
+            "defaites": 1,
+            "pointsPour": 105,
+            "pointsContre": 72,
+            "difference": 33,
+            "points": 9
         },
         {
             "position": 6,
-            "equipe": "US Dax"
+            "equipe": "US Dax",
+            "victoires": 2,
+            "nuls": 0,
+            "defaites": 1,
+            "pointsPour": 119,
+            "pointsContre": 104,
+            "difference": 15,
+            "points": 9
         },
         {
             "position": 7,
-            "equipe": "US Montauban"
+            "equipe": "US Montauban",
+            "victoires": 2,
+            "nuls": 0,
+            "defaites": 1,
+            "pointsPour": 52,
+            "pointsContre": 83,
+            "difference": -31,
+            "points": 8
         },
         {
             "position": 8,
-            "equipe": "FC Grenoble Rugby"
+            "equipe": "FC Grenoble Rugby",
+            "victoires": 1,
+            "nuls": 0,
+            "defaites": 2,
+            "pointsPour": 107,
+            "pointsContre": 92,
+            "difference": 15,
+            "points": 6
         },
         {
             "position": 9,
-            "equipe": "Valence Romans"
+            "equipe": "Valence Romans",
+            "victoires": 1,
+            "nuls": 0,
+            "defaites": 2,
+            "pointsPour": 80,
+            "pointsContre": 72,
+            "difference": 8,
+            "points": 6
         },
         {
             "position": 10,
-            "equipe": "Nissa Rugby"
+            "equipe": "Nissa Rugby",
+            "victoires": 1,
+            "nuls": 0,
+            "defaites": 2,
+            "pointsPour": 65,
+            "pointsContre": 80,
+            "difference": -15,
+            "points": 5
         },
         {
             "position": 11,
-            "equipe": "Stade Aurillacois"
+            "equipe": "Stade Aurillacois",
+            "victoires": 1,
+            "nuls": 0,
+            "defaites": 2,
+            "pointsPour": 115,
+            "pointsContre": 144,
+            "difference": -29,
+            "points": 5
         },
         {
             "position": 12,
-            "equipe": "RC Narbonnais"
+            "equipe": "RC Narbonnais",
+            "victoires": 1,
+            "nuls": 0,
+            "defaites": 2,
+            "pointsPour": 89,
+            "pointsContre": 130,
+            "difference": -41,
+            "points": 5
         },
         {
             "position": 13,
-            "equipe": "AS Béziers Hérault"
+            "equipe": "AS Béziers Hérault",
+            "victoires": 1,
+            "nuls": 0,
+            "defaites": 2,
+            "pointsPour": 48,
+            "pointsContre": 94,
+            "difference": -46,
+            "points": 4
         },
         {
             "position": 14,
-            "equipe": "SU Agen"
+            "equipe": "SU Agen",
+            "victoires": 1,
+            "nuls": 0,
+            "defaites": 2,
+            "pointsPour": 63,
+            "pointsContre": 114,
+            "difference": -51,
+            "points": 4
         },
         {
             "position": 15,
-            "equipe": "USON Nevers"
+            "equipe": "USON Nevers",
+            "victoires": 0,
+            "nuls": 0,
+            "defaites": 3,
+            "pointsPour": 67,
+            "pointsContre": 74,
+            "difference": -7,
+            "points": 3
         },
         {
             "position": 16,
-            "equipe": "Colomiers Rugby"
+            "equipe": "Colomiers Rugby",
+            "victoires": 0,
+            "nuls": 0,
+            "defaites": 3,
+            "pointsPour": 59,
+            "pointsContre": 94,
+            "difference": -35,
+            "points": 1
         }
     ]
 }
