@@ -12,21 +12,7 @@ def nettoyer_texte(texte):
 
 
 def est_nombre(texte):
-    """
-    Accepte :
-    14
-    3
-    130
-    +67
-    -31
-    """
-
-    return bool(
-        re.match(
-            r"^[+-]?\d+$",
-            texte.strip()
-        )
-    )
+    return re.match(r"^-?\d+$", texte) is not None
 
 
 def main():
@@ -56,27 +42,21 @@ def main():
 
         print("Page HTML chargée.")
 
-        # Attente du JavaScript
         page.wait_for_timeout(8000)
 
-        # Petit scroll pour déclencher le contenu dynamique
         page.evaluate(
             """
-            window.scrollTo(
-                0,
-                document.body.scrollHeight / 2
-            );
+            window.scrollTo(0, document.body.scrollHeight / 2);
             """
         )
 
         page.wait_for_timeout(3000)
 
-        # Texte visible
         texte = page.locator("body").inner_text()
 
         print("Texte récupéré.")
 
-        # Sauvegarde debug
+        # Debug
         with open(
             "debug_classement.txt",
             "w",
@@ -85,7 +65,6 @@ def main():
 
             fichier.write(texte)
 
-        # Nettoyage des lignes
         lignes = []
 
         for ligne in texte.split("\n"):
@@ -95,120 +74,207 @@ def main():
             if ligne:
                 lignes.append(ligne)
 
-        print(
-            f"{len(lignes)} lignes trouvées."
-        )
+        print(f"{len(lignes)} lignes trouvées.")
 
-        # ------------------------------------------
-        # ON COMMENCE APRES "PROCHAIN MATCH"
-        # ------------------------------------------
+        # -------------------------------------------------
+        # TROUVER LA ZONE DU CLASSEMENT
+        # -------------------------------------------------
 
-        debut_classement = -1
+        try:
 
-        for i, ligne in enumerate(lignes):
+            debut = lignes.index("Rang")
 
-            if ligne.lower() == "prochain match":
+        except ValueError:
 
-                debut_classement = i + 1
+            print("ERREUR : impossible de trouver le classement.")
+
+            browser.close()
+            return
+
+        # On commence après :
+        #
+        # Rang
+        # Club
+        # 1
+        # 2
+        # ...
+        # 16
+        # Pts
+        # M
+        # etc.
+
+        # On cherche Oyonnax Rugby ou la première équipe
+        debut_equipes = None
+
+        for i in range(debut, len(lignes)):
+
+            # Première position suivie plus loin d'un nom
+            if lignes[i] == "1":
+
+                # Dans ton texte actuel, la première équipe
+                # est après les titres et les positions 1 à 16.
+                for j in range(i + 1, min(i + 25, len(lignes))):
+
+                    if lignes[j] == "Oyonnax Rugby":
+
+                        debut_equipes = j
+                        break
+
+            if debut_equipes is not None:
                 break
 
-        if debut_classement == -1:
+        if debut_equipes is None:
 
-            print(
-                "ERREUR : impossible de trouver "
-                "'Prochain match'"
-            )
+            print("ERREUR : impossible de trouver la première équipe.")
 
             browser.close()
             return
 
         print(
-            f"Début des équipes trouvé à "
-            f"la ligne {debut_classement}"
+            "Début des équipes trouvé :",
+            lignes[debut_equipes]
         )
+
+        # -------------------------------------------------
+        # EXTRACTION DES 16 EQUIPES
+        # -------------------------------------------------
 
         classement = []
 
-        # ------------------------------------------
-        # RECHERCHE DES EQUIPES
-        # ------------------------------------------
+        i = debut_equipes
 
-        for i in range(
-            debut_classement,
-            len(lignes)
+        while (
+            i < len(lignes)
+            and len(classement) < 16
         ):
-
-            # On a déjà les 16 équipes
-            if len(classement) >= 16:
-                break
 
             equipe = lignes[i]
 
-            # Il faut suffisamment de lignes après
-            if i + 9 >= len(lignes):
-                continue
-
-            # Une équipe doit contenir des lettres
-            if not re.search(
-                r"[A-Za-zÀ-ÿ]",
-                equipe
-            ):
-                continue
-
-            # Une équipe ne doit pas être
-            # une ligne de classement générale
-            if equipe.lower() in [
-                "classement",
-                "rang",
-                "club",
-                "pts",
-                "prochain match"
-            ]:
-                continue
-
-            # --------------------------------------
-            # VERIFICATION DES 9 STATISTIQUES
+            # Les équipes commencent par leur nom.
+            # Ensuite on trouve normalement :
             #
-            # Equipe
-            # Pts
-            # M
-            # G
-            # N
-            # P
-            # Bonus
-            # Pts M
-            # Pts E
-            # Diff
-            # --------------------------------------
+            # points
+            # matchs
+            # victoires
+            # nuls
+            # défaites
+            # bonus
+            # points pour
+            # points contre
+            # différence
+            # forme...
+            #
 
-            statistiques_valides = True
-
-            for j in range(1, 10):
-
-                if not est_nombre(
-                    lignes[i + j]
-                ):
-
-                    statistiques_valides = False
-                    break
-
-            if not statistiques_valides:
+            if (
+                equipe in [
+                    "V",
+                    "D",
+                    "N"
+                ]
+                or est_nombre(equipe)
+            ):
+                i += 1
                 continue
 
-            position = (
-                len(classement) + 1
-            )
+            # Vérifie qu'on a assez de données après l'équipe
+            if i + 9 >= len(lignes):
+                break
+
+            try:
+
+                points = int(lignes[i + 1])
+                matchs = int(lignes[i + 2])
+                victoires = int(lignes[i + 3])
+                nuls = int(lignes[i + 4])
+                defaites = int(lignes[i + 5])
+
+                # Bonus présent mais pas affiché dans Unity
+                bonus = int(lignes[i + 6])
+
+                points_pour = int(lignes[i + 7])
+                points_contre = int(lignes[i + 8])
+
+                difference = int(
+                    lignes[i + 9]
+                )
+
+            except ValueError:
+
+                i += 1
+                continue
+
+            position = len(classement) + 1
 
             classement.append(
                 {
                     "position": position,
-                    "equipe": equipe
+                    "equipe": equipe,
+                    "victoires": victoires,
+                    "nuls": nuls,
+                    "defaites": defaites,
+                    "pointsPour": points_pour,
+                    "pointsContre": points_contre,
+                    "difference": difference,
+                    "points": points
                 }
             )
 
             print(
-                f"{position} - {equipe}"
+                f"{position} - {equipe} | "
+                f"V:{victoires} "
+                f"N:{nuls} "
+                f"P:{defaites} "
+                f"BP:{points_pour} "
+                f"BC:{points_contre} "
+                f"Diff:{difference} "
+                f"Pts:{points}"
             )
+
+            # -------------------------------------------------
+            # SAUT VERS L'EQUIPE SUIVANTE
+            # -------------------------------------------------
+
+            # Après les statistiques il y a :
+            #
+            # V D V
+            # adversaire
+            # date
+            # domicile / extérieur
+            #
+            # On cherche donc la prochaine ligne qui peut être
+            # suivie immédiatement de statistiques numériques.
+
+            prochain = None
+
+            for j in range(i + 10, len(lignes) - 9):
+
+                candidat = lignes[j]
+
+                # Une équipe doit être suivie par des nombres
+                if not est_nombre(candidat):
+
+                    try:
+
+                        int(lignes[j + 1])
+                        int(lignes[j + 2])
+                        int(lignes[j + 3])
+                        int(lignes[j + 4])
+                        int(lignes[j + 5])
+
+                        prochain = j
+                        break
+
+                    except ValueError:
+                        pass
+
+            if prochain is None:
+                break
+
+            i = prochain
+
+        # -------------------------------------------------
+        # RESULTAT
+        # -------------------------------------------------
 
         resultat = {
             "source": URL,
@@ -216,7 +282,6 @@ def main():
             "classement": classement
         }
 
-        # Sauvegarde JSON
         with open(
             FICHIER_SORTIE,
             "w",
@@ -231,11 +296,7 @@ def main():
             )
 
         print(
-            f"{len(classement)} équipes trouvées."
-        )
-
-        print(
-            f"Classement enregistré dans "
+            f"{len(classement)} équipes enregistrées dans "
             f"{FICHIER_SORTIE}"
         )
 
