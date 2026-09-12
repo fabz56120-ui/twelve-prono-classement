@@ -50,7 +50,7 @@ jobs:
           git config user.name "Twelve Prono Bot"
           git config user.email "actions@github.com"
 
-          git add classement.json
+          git add classement.json debug_classement.txt
 
           if git diff --cached --quiet
           then
