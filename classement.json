@@ -1,0 +1,37 @@
+{
+    "source": "https://prod2.lnr.fr/classement",
+    "classement": [
+        {
+            "position": 1,
+            "equipe": "V"
+        },
+        {
+            "position": 2,
+            "equipe": "V"
+        },
+        {
+            "position": 3,
+            "equipe": "D"
+        },
+        {
+            "position": 12,
+            "equipe": "Pts"
+        },
+        {
+            "position": 13,
+            "equipe": "Pts"
+        },
+        {
+            "position": 14,
+            "equipe": "Pts"
+        },
+        {
+            "position": 15,
+            "equipe": "Pts"
+        },
+        {
+            "position": 16,
+            "equipe": "Pts"
+        }
+    ]
+}
