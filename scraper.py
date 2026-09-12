@@ -11,51 +11,22 @@ def nettoyer_texte(texte):
     return re.sub(r"\s+", " ", texte).strip()
 
 
-def est_position(texte):
-    return re.fullmatch(
-        r"\d+(?:er|e|ème|eme)?",
-        texte.strip(),
-        re.IGNORECASE
-    ) is not None
+def est_nombre(texte):
+    """
+    Accepte :
+    14
+    3
+    130
+    +67
+    -31
+    """
 
-
-def est_nom_equipe(texte):
-
-    texte = nettoyer_texte(texte)
-
-    if len(texte) < 3:
-        return False
-
-    # Colonnes du classement à ignorer
-    mots_interdits = [
-        "rang",
-        "equipe",
-        "équipe",
-        "matchs",
-        "joués",
-        "joues",
-        "j",
-        "v",
-        "n",
-        "d",
-        "pts",
-        "points",
-        "bonus",
-        "classement"
-    ]
-
-    if texte.lower() in mots_interdits:
-        return False
-
-    # Pas uniquement un nombre
-    if re.fullmatch(r"\d+", texte):
-        return False
-
-    # Il faut contenir des lettres
-    if not re.search(r"[A-Za-zÀ-ÿ]", texte):
-        return False
-
-    return True
+    return bool(
+        re.match(
+            r"^[+-]?\d+$",
+            texte.strip()
+        )
+    )
 
 
 def main():
@@ -85,204 +56,159 @@ def main():
 
         print("Page HTML chargée.")
 
-        # Attendre le JavaScript du site
-        page.wait_for_timeout(10000)
+        # Attente du JavaScript
+        page.wait_for_timeout(8000)
 
-        # Déclencher le chargement complet
+        # Petit scroll pour déclencher le contenu dynamique
         page.evaluate(
             """
-            window.scrollTo(0, document.body.scrollHeight);
+            window.scrollTo(
+                0,
+                document.body.scrollHeight / 2
+            );
             """
         )
 
         page.wait_for_timeout(3000)
 
-        # ---------------------------------------------
-        # RECUPERATION DE TOUS LES ELEMENTS VISIBLES
-        # ---------------------------------------------
+        # Texte visible
+        texte = page.locator("body").inner_text()
 
-        elements = page.locator("body *")
+        print("Texte récupéré.")
 
-        total = elements.count()
-
-        print(f"{total} éléments HTML trouvés.")
-
-        classement = []
-        positions_trouvees = set()
-
-        for i in range(total):
-
-            try:
-
-                element = elements.nth(i)
-
-                # Seulement les éléments visibles
-                if not element.is_visible():
-                    continue
-
-                texte = nettoyer_texte(
-                    element.inner_text(timeout=3000)
-                )
-
-                if not texte:
-                    continue
-
-                # On cherche un élément contenant
-                # exactement une position : 1, 2, 3, etc.
-                if not est_position(texte):
-                    continue
-
-                position = int(
-                    re.match(
-                        r"\d+",
-                        texte
-                    ).group()
-                )
-
-                # PRO D2 = 16 équipes
-                if position < 1 or position > 16:
-                    continue
-
-                # Evite de traiter plusieurs fois
-                # la même position
-                if position in positions_trouvees:
-                    continue
-
-                # -----------------------------------------
-                # RECHERCHE DU PARENT DE LA LIGNE
-                # -----------------------------------------
-
-                parent = element.locator("..")
-
-                parent_texte = nettoyer_texte(
-                    parent.inner_text(timeout=3000)
-                )
-
-                lignes_parent = [
-                    nettoyer_texte(x)
-                    for x in parent_texte.split("\n")
-                    if nettoyer_texte(x)
-                ]
-
-                equipe = ""
-
-                # Cherche un nom plausible après la position
-                for ligne in lignes_parent:
-
-                    if ligne == texte:
-                        continue
-
-                    if est_nom_equipe(ligne):
-
-                        # Ignore les lignes qui ressemblent
-                        # aux données statistiques
-                        if ligne.lower() not in [
-                            "v",
-                            "n",
-                            "d",
-                            "pts"
-                        ]:
-                            equipe = ligne
-                            break
-
-                # -----------------------------------------
-                # SI RIEN TROUVE :
-                # ON MONTE D'UN NIVEAU HTML
-                # -----------------------------------------
-
-                if not equipe:
-
-                    grand_parent = parent.locator("..")
-
-                    gp_texte = nettoyer_texte(
-                        grand_parent.inner_text(
-                            timeout=3000
-                        )
-                    )
-
-                    lignes_gp = [
-                        nettoyer_texte(x)
-                        for x in gp_texte.split("\n")
-                        if nettoyer_texte(x)
-                    ]
-
-                    for index, ligne in enumerate(lignes_gp):
-
-                        if ligne == texte:
-
-                            # Cherche les 5 éléments suivants
-                            for j in range(
-                                index + 1,
-                                min(
-                                    index + 6,
-                                    len(lignes_gp)
-                                )
-                            ):
-
-                                candidat = lignes_gp[j]
-
-                                if est_nom_equipe(
-                                    candidat
-                                ):
-                                    equipe = candidat
-                                    break
-
-                            break
-
-                # -----------------------------------------
-                # AJOUT DE L'EQUIPE
-                # -----------------------------------------
-
-                if equipe:
-
-                    classement.append(
-                        {
-                            "position": position,
-                            "equipe": equipe
-                        }
-                    )
-
-                    positions_trouvees.add(
-                        position
-                    )
-
-                    print(
-                        f"{position} - {equipe}"
-                    )
-
-            except Exception as e:
-
-                # On continue même si un élément
-                # pose problème
-                continue
-
-        # ---------------------------------------------
-        # TRI
-        # ---------------------------------------------
-
-        classement.sort(
-            key=lambda x: x["position"]
-        )
-
-        # ---------------------------------------------
-        # SAUVEGARDE DEBUG HTML / TEXTE
-        # ---------------------------------------------
-
-        body_text = page.locator(
-            "body"
-        ).inner_text()
-
+        # Sauvegarde debug
         with open(
             "debug_classement.txt",
             "w",
             encoding="utf-8"
         ) as fichier:
 
-            fichier.write(body_text)
+            fichier.write(texte)
 
-        # ---------------------------------------------
-        # RESULTAT
-        # ---------------------------------------------
+        # Nettoyage des lignes
+        lignes = []
+
+        for ligne in texte.split("\n"):
+
+            ligne = nettoyer_texte(ligne)
+
+            if ligne:
+                lignes.append(ligne)
+
+        print(
+            f"{len(lignes)} lignes trouvées."
+        )
+
+        # ------------------------------------------
+        # ON COMMENCE APRES "PROCHAIN MATCH"
+        # ------------------------------------------
+
+        debut_classement = -1
+
+        for i, ligne in enumerate(lignes):
+
+            if ligne.lower() == "prochain match":
+
+                debut_classement = i + 1
+                break
+
+        if debut_classement == -1:
+
+            print(
+                "ERREUR : impossible de trouver "
+                "'Prochain match'"
+            )
+
+            browser.close()
+            return
+
+        print(
+            f"Début des équipes trouvé à "
+            f"la ligne {debut_classement}"
+        )
+
+        classement = []
+
+        # ------------------------------------------
+        # RECHERCHE DES EQUIPES
+        # ------------------------------------------
+
+        for i in range(
+            debut_classement,
+            len(lignes)
+        ):
+
+            # On a déjà les 16 équipes
+            if len(classement) >= 16:
+                break
+
+            equipe = lignes[i]
+
+            # Il faut suffisamment de lignes après
+            if i + 9 >= len(lignes):
+                continue
+
+            # Une équipe doit contenir des lettres
+            if not re.search(
+                r"[A-Za-zÀ-ÿ]",
+                equipe
+            ):
+                continue
+
+            # Une équipe ne doit pas être
+            # une ligne de classement générale
+            if equipe.lower() in [
+                "classement",
+                "rang",
+                "club",
+                "pts",
+                "prochain match"
+            ]:
+                continue
+
+            # --------------------------------------
+            # VERIFICATION DES 9 STATISTIQUES
+            #
+            # Equipe
+            # Pts
+            # M
+            # G
+            # N
+            # P
+            # Bonus
+            # Pts M
+            # Pts E
+            # Diff
+            # --------------------------------------
+
+            statistiques_valides = True
+
+            for j in range(1, 10):
+
+                if not est_nombre(
+                    lignes[i + j]
+                ):
+
+                    statistiques_valides = False
+                    break
+
+            if not statistiques_valides:
+                continue
+
+            position = (
+                len(classement) + 1
+            )
+
+            classement.append(
+                {
+                    "position": position,
+                    "equipe": equipe
+                }
+            )
+
+            print(
+                f"{position} - {equipe}"
+            )
 
         resultat = {
             "source": URL,
@@ -290,6 +216,7 @@ def main():
             "classement": classement
         }
 
+        # Sauvegarde JSON
         with open(
             FICHIER_SORTIE,
             "w",
@@ -303,17 +230,14 @@ def main():
                 indent=4
             )
 
-        print("")
         print(
-            f"{len(classement)} équipes enregistrées."
+            f"{len(classement)} équipes trouvées."
         )
 
-        if len(classement) != 16:
-
-            print(
-                "ATTENTION : le classement "
-                "ne contient pas 16 équipes."
-            )
+        print(
+            f"Classement enregistré dans "
+            f"{FICHIER_SORTIE}"
+        )
 
         browser.close()
 
