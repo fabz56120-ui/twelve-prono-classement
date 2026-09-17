@@ -55,6 +55,7 @@ Journée
 J1
 J2
 J3
+J4
 CLASSEMENT
 Rang
 	
@@ -113,6 +114,38 @@ Diff
 Etat de forme
 	
 Prochain match
+CA Brive
+	
+17
+	
+4
+	
+4
+	
+0
+	
+0
+	
+1
+	
+127
+	
+80
+	
++47
+	
+V
+V
+V
+V
+	
+
+CR
+
+24 septembre
+
+À domicile
+
 Oyonnax Rugby
 	
 14
@@ -141,37 +174,6 @@ V
 SUA
 
 18 septembre
-
-À l'extérieur
-
-CA Brive
-	
-13
-	
-3
-	
-3
-	
-0
-	
-0
-	
-1
-	
-98
-	
-52
-	
-+46
-	
-V
-V
-V
-	
-
-SA
-
-17 septembre
 
 À l'extérieur
 
@@ -392,6 +394,38 @@ PR
 
 À domicile
 
+Stade Aurillacois
+	
+6
+	
+4
+	
+1
+	
+0
+	
+3
+	
+2
+	
+143
+	
+173
+	
+-30
+	
+D
+V
+D
+D
+	
+
+PR
+
+25 septembre
+
+À l'extérieur
+
 Nissa Rugby
 	
 5
@@ -420,37 +454,6 @@ D
 FCG
 
 18 septembre
-
-À domicile
-
-Stade Aurillacois
-	
-5
-	
-3
-	
-1
-	
-0
-	
-2
-	
-1
-	
-115
-	
-144
-	
--29
-	
-D
-V
-D
-	
-
-CAB
-
-17 septembre
 
 À domicile
 
