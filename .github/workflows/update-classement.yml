@@ -7,8 +7,8 @@ on:
 
   # Jeudi et vendredi soir
   schedule:
-    - cron: "0 20 * * 4"
-    - cron: "0 20 * * 5"
+  - cron: "30 21 * * 4"
+  - cron: "30 21 * * 5"
 
 
 permissions:
