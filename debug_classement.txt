@@ -114,6 +114,38 @@ Diff
 Etat de forme
 	
 Prochain match
+Provence Rugby
+	
+17
+	
+4
+	
+4
+	
+0
+	
+0
+	
+1
+	
+136
+	
+88
+	
++48
+	
+V
+V
+V
+V
+	
+
+SA
+
+25 septembre
+
+À domicile
+
 CA Brive
 	
 17
@@ -169,52 +201,22 @@ Oyonnax Rugby
 V
 V
 V
+D
 	
 
-SUA
+USON
 
-18 septembre
+25 septembre
 
-À l'extérieur
-
-Provence Rugby
-	
-13
-	
-3
-	
-3
-	
-0
-	
-0
-	
-1
-	
-109
-	
-65
-	
-+44
-	
-V
-V
-V
-	
-
-VRDR
-
-18 septembre
-
-À l'extérieur
+À domicile
 
 Biarritz Olympique PB
 	
-10
+14
+	
+4
 	
 3
-	
-2
 	
 0
 	
@@ -222,123 +224,95 @@ Biarritz Olympique PB
 	
 2
 	
-99
+121
 	
-72
+92
 	
-+27
++29
 	
+V
+D
+V
+V
+	
+
+USM
+
+25 septembre
+
+À domicile
+
+US Montauban
+	
+13
+	
+4
+	
+3
+	
+0
+	
+1
+	
+1
+	
+102
+	
+104
+	
+-2
+	
+V
 V
 D
 V
 	
 
-USON
+BO
 
-18 septembre
+25 septembre
 
 À l'extérieur
 
 Soyaux-Angoulême XV
 	
-9
+10
 	
-3
-	
-2
-	
-0
-	
-1
-	
-1
-	
-105
-	
-72
-	
-+33
-	
-V
-D
-V
-	
-
-RCN
-
-18 septembre
-
-À l'extérieur
-
-US Dax
-	
-9
-	
-3
+4
 	
 2
 	
 0
 	
-1
-	
-1
-	
-119
-	
-104
-	
-+15
-	
-V
-D
-V
-	
-
-CR
-
-18 septembre
-
-À l'extérieur
-
-US Montauban
-	
-8
-	
-3
+2
 	
 2
 	
-0
+131
 	
-1
+103
 	
-0
-	
-52
-	
-83
-	
--31
++28
 	
 V
+D
 V
 D
 	
 
-ASBH
+SUA
 
-18 septembre
+25 septembre
 
 À domicile
 
 FC Grenoble Rugby
 	
-6
+10
 	
-3
+4
 	
-1
+2
 	
 0
 	
@@ -346,53 +320,183 @@ FC Grenoble Rugby
 	
 2
 	
-107
+144
 	
-92
+125
 	
-+15
++19
 	
 V
 D
+D
+V
+	
+
+VRDR
+
+25 septembre
+
+À domicile
+
+US Dax
+	
+9
+	
+4
+	
+2
+	
+0
+	
+2
+	
+1
+	
+140
+	
+170
+	
+-30
+	
+V
+D
+V
 D
 	
 
 SN
 
-18 septembre
+25 septembre
 
-À l'extérieur
+À domicile
 
-Valence Romans
+RC Narbonnais
 	
-6
+9
 	
-3
+4
 	
-1
+2
 	
 0
 	
 2
 	
-2
+1
 	
-80
+120
 	
-72
+156
 	
-+8
+-36
 	
 D
 V
 D
+V
 	
 
-PR
+ASBH
 
-18 septembre
+25 septembre
 
-À domicile
+À l'extérieur
+
+Valence Romans
+	
+7
+	
+4
+	
+1
+	
+0
+	
+3
+	
+3
+	
+103
+	
+99
+	
++4
+	
+D
+V
+D
+D
+	
+
+FCG
+
+25 septembre
+
+À l'extérieur
+
+Colomiers Rugby
+	
+6
+	
+4
+	
+1
+	
+0
+	
+3
+	
+2
+	
+125
+	
+115
+	
++10
+	
+D
+D
+D
+V
+	
+
+CAB
+
+24 septembre
+
+À l'extérieur
+
+Nissa Rugby
+	
+6
+	
+4
+	
+1
+	
+0
+	
+3
+	
+2
+	
+98
+	
+117
+	
+-19
+	
+D
+V
+D
+D
+	
+
+USD
+
+25 septembre
+
+À l'extérieur
 
 Stade Aurillacois
 	
@@ -426,96 +530,67 @@ PR
 
 À l'extérieur
 
-Nissa Rugby
-	
-5
-	
-3
-	
-1
-	
-0
-	
-2
-	
-1
-	
-65
-	
-80
-	
--15
-	
-D
-V
-D
-	
-
-FCG
-
-18 septembre
-
-À domicile
-
-RC Narbonnais
-	
-5
-	
-3
-	
-1
-	
-0
-	
-2
-	
-1
-	
-89
-	
-130
-	
--41
-	
-D
-V
-D
-	
-
-SA XV
-
-18 septembre
-
-À domicile
-
 AS Béziers Hérault
 	
 4
 	
-3
+4
 	
 1
 	
 0
 	
-2
+3
 	
 0
 	
-48
+69
 	
-94
+144
 	
--46
+-75
 	
 D
 D
 V
+D
 	
 
-USM
+RCN
 
-18 septembre
+25 septembre
+
+À domicile
+
+USON Nevers
+	
+4
+	
+4
+	
+0
+	
+0
+	
+4
+	
+4
+	
+87
+	
+96
+	
+-9
+	
+D
+D
+D
+D
+	
+
+OYO
+
+25 septembre
 
 À l'extérieur
 
@@ -542,75 +617,14 @@ SU Agen
 D
 D
 V
+V
 	
 
-OYO
+SA XV
 
-18 septembre
+25 septembre
 
-À domicile
-
-USON Nevers
-	
-3
-	
-3
-	
-0
-	
-0
-	
-3
-	
-3
-	
-67
-	
-74
-	
--7
-	
-D
-D
-D
-	
-
-BO
-
-18 septembre
-
-À domicile
-
-Colomiers Rugby
-	
-1
-	
-3
-	
-0
-	
-0
-	
-3
-	
-1
-	
-59
-	
-94
-	
--35
-	
-D
-D
-D
-	
-
-USD
-
-18 septembre
-
-À domicile
+À l'extérieur
 
   Qualifiés pour les demi-finales
 
