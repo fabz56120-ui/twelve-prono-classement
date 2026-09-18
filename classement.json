@@ -4,6 +4,17 @@
     "classement": [
         {
             "position": 1,
+            "equipe": "Oyonnax Rugby",
+            "victoires": 4,
+            "nuls": 0,
+            "defaites": 0,
+            "pointsPour": 149,
+            "pointsContre": 80,
+            "difference": 69,
+            "points": 18
+        },
+        {
+            "position": 2,
             "equipe": "Provence Rugby",
             "victoires": 4,
             "nuls": 0,
@@ -14,7 +25,7 @@
             "points": 17
         },
         {
-            "position": 2,
+            "position": 3,
             "equipe": "CA Brive",
             "victoires": 4,
             "nuls": 0,
@@ -23,17 +34,6 @@
             "pointsContre": 80,
             "difference": 47,
             "points": 17
-        },
-        {
-            "position": 3,
-            "equipe": "Oyonnax Rugby",
-            "victoires": 3,
-            "nuls": 0,
-            "defaites": 0,
-            "pointsPour": 130,
-            "pointsContre": 63,
-            "difference": 67,
-            "points": 14
         },
         {
             "position": 4,
@@ -147,6 +147,17 @@
         },
         {
             "position": 14,
+            "equipe": "SU Agen",
+            "victoires": 1,
+            "nuls": 0,
+            "defaites": 3,
+            "pointsPour": 80,
+            "pointsContre": 133,
+            "difference": -53,
+            "points": 5
+        },
+        {
+            "position": 15,
             "equipe": "AS Béziers Hérault",
             "victoires": 1,
             "nuls": 0,
@@ -157,7 +168,7 @@
             "points": 4
         },
         {
-            "position": 15,
+            "position": 16,
             "equipe": "USON Nevers",
             "victoires": 0,
             "nuls": 0,
@@ -165,17 +176,6 @@
             "pointsPour": 87,
             "pointsContre": 96,
             "difference": -9,
-            "points": 4
-        },
-        {
-            "position": 16,
-            "equipe": "SU Agen",
-            "victoires": 1,
-            "nuls": 0,
-            "defaites": 2,
-            "pointsPour": 63,
-            "pointsContre": 114,
-            "difference": -51,
             "points": 4
         }
     ]

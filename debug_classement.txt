@@ -114,6 +114,38 @@ Diff
 Etat de forme
 	
 Prochain match
+Oyonnax Rugby
+	
+18
+	
+4
+	
+4
+	
+0
+	
+0
+	
+2
+	
+149
+	
+80
+	
++69
+	
+V
+V
+V
+V
+	
+
+USON
+
+25 septembre
+
+À domicile
+
 Provence Rugby
 	
 17
@@ -175,38 +207,6 @@ V
 CR
 
 24 septembre
-
-À domicile
-
-Oyonnax Rugby
-	
-14
-	
-3
-	
-3
-	
-0
-	
-0
-	
-2
-	
-130
-	
-63
-	
-+67
-	
-V
-V
-V
-D
-	
-
-USON
-
-25 septembre
 
 À domicile
 
@@ -530,6 +530,38 @@ PR
 
 À l'extérieur
 
+SU Agen
+	
+5
+	
+4
+	
+1
+	
+0
+	
+3
+	
+1
+	
+80
+	
+133
+	
+-53
+	
+D
+D
+V
+D
+	
+
+SA XV
+
+25 septembre
+
+À l'extérieur
+
 AS Béziers Hérault
 	
 4
@@ -589,38 +621,6 @@ D
 	
 
 OYO
-
-25 septembre
-
-À l'extérieur
-
-SU Agen
-	
-4
-	
-3
-	
-1
-	
-0
-	
-2
-	
-0
-	
-63
-	
-114
-	
--51
-	
-D
-D
-V
-V
-	
-
-SA XV
 
 25 septembre
 
