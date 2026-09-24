@@ -56,6 +56,7 @@ J1
 J2
 J3
 J4
+J5
 CLASSEMENT
 Rang
 	
@@ -114,6 +115,39 @@ Diff
 Etat de forme
 	
 Prochain match
+CA Brive
+	
+21
+	
+5
+	
+5
+	
+0
+	
+0
+	
+1
+	
+168
+	
+106
+	
++62
+	
+V
+V
+V
+V
+V
+	
+
+USM
+
+8 octobre
+
+À l'extérieur
+
 Oyonnax Rugby
 	
 18
@@ -175,38 +209,6 @@ V
 SA
 
 25 septembre
-
-À domicile
-
-CA Brive
-	
-17
-	
-4
-	
-4
-	
-0
-	
-0
-	
-1
-	
-127
-	
-80
-	
-+47
-	
-V
-V
-V
-V
-	
-
-CR
-
-24 septembre
 
 À domicile
 
@@ -438,31 +440,32 @@ Colomiers Rugby
 	
 6
 	
-4
+5
 	
 1
 	
 0
 	
-3
+4
 	
 2
 	
-125
+151
 	
-115
+156
 	
-+10
+-5
 	
 D
 D
 D
 V
+D
 	
 
-CAB
+FCG
 
-24 septembre
+9 octobre
 
 À l'extérieur
 
