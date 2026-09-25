@@ -115,6 +115,39 @@ Diff
 Etat de forme
 	
 Prochain match
+Oyonnax Rugby
+	
+23
+	
+5
+	
+5
+	
+0
+	
+0
+	
+3
+	
+205
+	
+115
+	
++90
+	
+V
+V
+V
+V
+V
+	
+
+RCN
+
+9 octobre
+
+À l'extérieur
+
 CA Brive
 	
 21
@@ -148,45 +181,13 @@ USM
 
 À l'extérieur
 
-Oyonnax Rugby
-	
-18
-	
-4
-	
-4
-	
-0
-	
-0
-	
-2
-	
-149
-	
-80
-	
-+69
-	
-V
-V
-V
-V
-	
-
-USON
-
-25 septembre
-
-À domicile
-
 Provence Rugby
 	
-17
+21
 	
-4
+5
 	
-4
+5
 	
 0
 	
@@ -194,13 +195,47 @@ Provence Rugby
 	
 1
 	
-136
+160
 	
-88
+108
 	
-+48
++52
 	
 V
+V
+V
+V
+V
+	
+
+SA XV
+
+9 octobre
+
+À l'extérieur
+
+Biarritz Olympique PB
+	
+18
+	
+5
+	
+4
+	
+0
+	
+1
+	
+2
+	
+153
+	
+112
+	
++41
+	
+V
+D
 V
 V
 V
@@ -208,81 +243,17 @@ V
 
 SA
 
-25 septembre
-
-À domicile
-
-Biarritz Olympique PB
-	
-14
-	
-4
-	
-3
-	
-0
-	
-1
-	
-2
-	
-121
-	
-92
-	
-+29
-	
-V
-D
-V
-V
-	
-
-USM
-
-25 septembre
-
-À domicile
-
-US Montauban
-	
-13
-	
-4
-	
-3
-	
-0
-	
-1
-	
-1
-	
-102
-	
-104
-	
--2
-	
-V
-V
-D
-V
-	
-
-BO
-
-25 septembre
+9 octobre
 
 À l'extérieur
 
 Soyaux-Angoulême XV
 	
-10
+14
 	
-4
+5
 	
-2
+3
 	
 0
 	
@@ -290,21 +261,88 @@ Soyaux-Angoulême XV
 	
 2
 	
-131
+167
 	
-103
+125
 	
-+28
++42
 	
 V
 D
 V
 D
+V
+	
+
+PR
+
+9 octobre
+
+À domicile
+
+US Dax
+	
+14
+	
+5
+	
+3
+	
+0
+	
+2
+	
+2
+	
+185
+	
+187
+	
+-2
+	
+V
+D
+V
+D
+V
 	
 
 SUA
 
-25 septembre
+9 octobre
+
+À l'extérieur
+
+US Montauban
+	
+13
+	
+5
+	
+3
+	
+0
+	
+2
+	
+1
+	
+122
+	
+136
+	
+-14
+	
+V
+V
+D
+V
+D
+	
+
+CAB
+
+8 octobre
 
 À domicile
 
@@ -332,43 +370,12 @@ V
 D
 D
 V
-	
-
-VRDR
-
-25 septembre
-
-À domicile
-
-US Dax
-	
-9
-	
-4
-	
-2
-	
-0
-	
-2
-	
-1
-	
-140
-	
-170
-	
--30
-	
-V
-D
-V
 D
 	
 
-SN
+CR
 
-25 septembre
+9 octobre
 
 À domicile
 
@@ -376,31 +383,65 @@ RC Narbonnais
 	
 9
 	
-4
+5
 	
 2
 	
 0
 	
-2
+3
 	
 1
 	
-120
+144
 	
-156
+190
 	
--36
+-46
 	
+D
+V
+D
+V
+D
+	
+
+OYO
+
+9 octobre
+
+À domicile
+
+AS Béziers Hérault
+	
+8
+	
+5
+	
+2
+	
+0
+	
+3
+	
+0
+	
+103
+	
+168
+	
+-65
+	
+D
 D
 V
 D
 V
 	
 
-ASBH
+VRDR
 
-25 septembre
+9 octobre
 
 À l'extérieur
 
@@ -428,13 +469,47 @@ D
 V
 D
 D
+V
 	
 
-FCG
+ASBH
 
-25 septembre
+9 octobre
 
-À l'extérieur
+À domicile
+
+Stade Aurillacois
+	
+7
+	
+5
+	
+1
+	
+0
+	
+4
+	
+3
+	
+163
+	
+197
+	
+-34
+	
+D
+V
+D
+D
+D
+	
+
+BO
+
+9 octobre
+
+À domicile
 
 Colomiers Rugby
 	
@@ -473,22 +548,56 @@ Nissa Rugby
 	
 6
 	
-4
+5
 	
 1
 	
 0
 	
-3
+4
 	
 2
 	
-98
+115
 	
-117
+162
 	
--19
+-47
 	
+D
+V
+D
+D
+D
+	
+
+USON
+
+9 octobre
+
+À domicile
+
+SU Agen
+	
+5
+	
+5
+	
+1
+	
+0
+	
+4
+	
+1
+	
+102
+	
+169
+	
+-67
+	
+D
 D
 V
 D
@@ -497,103 +606,7 @@ D
 
 USD
 
-25 septembre
-
-À l'extérieur
-
-Stade Aurillacois
-	
-6
-	
-4
-	
-1
-	
-0
-	
-3
-	
-2
-	
-143
-	
-173
-	
--30
-	
-D
-V
-D
-D
-	
-
-PR
-
-25 septembre
-
-À l'extérieur
-
-SU Agen
-	
-5
-	
-4
-	
-1
-	
-0
-	
-3
-	
-1
-	
-80
-	
-133
-	
--53
-	
-D
-D
-V
-D
-	
-
-SA XV
-
-25 septembre
-
-À l'extérieur
-
-AS Béziers Hérault
-	
-4
-	
-4
-	
-1
-	
-0
-	
-3
-	
-0
-	
-69
-	
-144
-	
--75
-	
-D
-D
-V
-D
-	
-
-RCN
-
-25 septembre
+9 octobre
 
 À domicile
 
@@ -601,31 +614,32 @@ USON Nevers
 	
 4
 	
-4
+5
 	
 0
 	
 0
 	
-4
+5
 	
 4
 	
-87
+122
 	
-96
+152
 	
--9
+-30
 	
+D
 D
 D
 D
 D
 	
 
-OYO
+SN
 
-25 septembre
+9 octobre
 
 À l'extérieur
 
