@@ -5,8 +5,8 @@ on:
 
   schedule:
   # Jeudi
-  - cron: "20 21 * * 4"  # Jeudi 23h20 France
-  - cron: "40 21 * * 4"  # Jeudi 23h40 France
+  - cron: "10 18 * * 4"  # Jeudi 23h20 France
+  - cron: "40 18 * * 4"  # Jeudi 23h40 France
 
   # Vendredi
   - cron: "00 16 * * 5" # Vendredi 19h France
