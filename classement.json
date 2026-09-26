@@ -59,6 +59,17 @@
         },
         {
             "position": 6,
+            "equipe": "FC Grenoble Rugby",
+            "victoires": 3,
+            "nuls": 0,
+            "defaites": 2,
+            "pointsPour": 164,
+            "pointsContre": 142,
+            "difference": 22,
+            "points": 14
+        },
+        {
+            "position": 7,
             "equipe": "US Dax",
             "victoires": 3,
             "nuls": 0,
@@ -69,7 +80,7 @@
             "points": 14
         },
         {
-            "position": 7,
+            "position": 8,
             "equipe": "US Montauban",
             "victoires": 3,
             "nuls": 0,
@@ -78,17 +89,6 @@
             "pointsContre": 136,
             "difference": -14,
             "points": 13
-        },
-        {
-            "position": 8,
-            "equipe": "FC Grenoble Rugby",
-            "victoires": 2,
-            "nuls": 0,
-            "defaites": 2,
-            "pointsPour": 144,
-            "pointsContre": 125,
-            "difference": 19,
-            "points": 10
         },
         {
             "position": 9,
@@ -103,6 +103,17 @@
         },
         {
             "position": 10,
+            "equipe": "Valence Romans",
+            "victoires": 1,
+            "nuls": 0,
+            "defaites": 4,
+            "pointsPour": 120,
+            "pointsContre": 119,
+            "difference": 1,
+            "points": 8
+        },
+        {
+            "position": 11,
             "equipe": "AS Béziers Hérault",
             "victoires": 2,
             "nuls": 0,
@@ -111,17 +122,6 @@
             "pointsContre": 168,
             "difference": -65,
             "points": 8
-        },
-        {
-            "position": 11,
-            "equipe": "Valence Romans",
-            "victoires": 1,
-            "nuls": 0,
-            "defaites": 3,
-            "pointsPour": 103,
-            "pointsContre": 99,
-            "difference": 4,
-            "points": 7
         },
         {
             "position": 12,

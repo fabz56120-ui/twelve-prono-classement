@@ -280,6 +280,39 @@ PR
 
 À domicile
 
+FC Grenoble Rugby
+	
+14
+	
+5
+	
+3
+	
+0
+	
+2
+	
+2
+	
+164
+	
+142
+	
++22
+	
+V
+D
+D
+V
+V
+	
+
+CR
+
+9 octobre
+
+À domicile
+
 US Dax
 	
 14
@@ -346,39 +379,6 @@ CAB
 
 À domicile
 
-FC Grenoble Rugby
-	
-10
-	
-4
-	
-2
-	
-0
-	
-2
-	
-2
-	
-144
-	
-125
-	
-+19
-	
-V
-D
-D
-V
-D
-	
-
-CR
-
-9 octobre
-
-À domicile
-
 RC Narbonnais
 	
 9
@@ -407,6 +407,39 @@ D
 	
 
 OYO
+
+9 octobre
+
+À domicile
+
+Valence Romans
+	
+8
+	
+5
+	
+1
+	
+0
+	
+4
+	
+4
+	
+120
+	
+119
+	
++1
+	
+D
+V
+D
+D
+D
+	
+
+ASBH
 
 9 octobre
 
@@ -444,39 +477,6 @@ VRDR
 9 octobre
 
 À l'extérieur
-
-Valence Romans
-	
-7
-	
-4
-	
-1
-	
-0
-	
-3
-	
-3
-	
-103
-	
-99
-	
-+4
-	
-D
-V
-D
-D
-V
-	
-
-ASBH
-
-9 octobre
-
-À domicile
 
 Stade Aurillacois
 	
