@@ -4,21 +4,17 @@ on:
   workflow_dispatch:
 
   schedule:
-  # Jeudi
-  - cron: "10 18 * * 4"  # Jeudi 23h20 France
-  - cron: "40 18 * * 4"  # Jeudi 23h40 France
+  #   # Jeudi
+  - cron: "12 17 * * 4"  # Jeudi 19h12 France
+  - cron: "10 18 * * 4"  # Jeudi 20h10 France
+  - cron: "00 19 * * 4"  # Jeudi 20h40 France 23H00github
 
   # Vendredi
-  - cron: "00 16 * * 5" # Vendredi 19h France
-  - cron: "00 17 * * 5"  # Vendredi 20h40 France
-  - cron: "00 18 * * 5"  # Vendredi 21h30 France
-  - cron: "30 18 * * 5"  # Vendredi 23h30 France
-
-   # SamediTEST
-  - cron: "00 16 * * 6" # Vendredi 18h France
-  - cron: "00 17 * * 6"  # Vendredi 19h France
-  - cron: "00 18 * * 6"  # Vendredi 20h France
-  - cron: "30 20 * * 6"  # Vendredi 22h30  
+  - cron: "12 16 * * 5" # Vendredi 18h12 France 20Hgithub
+  - cron: "12 17 * * 5"  # Vendredi 19h12 France
+  - cron: "12 18 * * 5"  # Vendredi 20h12 France
+  - cron: "17 19 * * 5"  # Vendredi 21h17  
+  - cron: "17 20 * * 5"  # Vendredi 21h17  00Hgithub
 
 permissions:
   contents: write
