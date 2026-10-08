@@ -18,10 +18,10 @@
             "equipe": "CA Brive",
             "victoires": 5,
             "nuls": 0,
-            "defaites": 0,
-            "pointsPour": 168,
-            "pointsContre": 106,
-            "difference": 62,
+            "defaites": 1,
+            "pointsPour": 192,
+            "pointsContre": 138,
+            "difference": 54,
             "points": 21
         },
         {
@@ -48,6 +48,17 @@
         },
         {
             "position": 5,
+            "equipe": "US Montauban",
+            "victoires": 4,
+            "nuls": 0,
+            "defaites": 2,
+            "pointsPour": 154,
+            "pointsContre": 160,
+            "difference": -6,
+            "points": 17
+        },
+        {
+            "position": 6,
             "equipe": "Soyaux-Angoulême XV",
             "victoires": 3,
             "nuls": 0,
@@ -58,7 +69,7 @@
             "points": 14
         },
         {
-            "position": 6,
+            "position": 7,
             "equipe": "FC Grenoble Rugby",
             "victoires": 3,
             "nuls": 0,
@@ -69,7 +80,7 @@
             "points": 14
         },
         {
-            "position": 7,
+            "position": 8,
             "equipe": "US Dax",
             "victoires": 3,
             "nuls": 0,
@@ -78,17 +89,6 @@
             "pointsContre": 187,
             "difference": -2,
             "points": 14
-        },
-        {
-            "position": 8,
-            "equipe": "US Montauban",
-            "victoires": 3,
-            "nuls": 0,
-            "defaites": 2,
-            "pointsPour": 122,
-            "pointsContre": 136,
-            "difference": -14,
-            "points": 13
         },
         {
             "position": 9,
