@@ -60,6 +60,7 @@ J2
 J3
 J4
 J5
+J6
 CLASSEMENT
 Rang
 	
@@ -175,14 +176,14 @@ V
 V
 V
 V
-V
+D
 	
 
-USM
+FCG
 
-8 octobre
+17 octobre
 
-À l'extérieur
+À domicile
 
 Provence Rugby
 	
@@ -370,17 +371,17 @@ US Montauban
 -14
 	
 V
-V
 D
 V
 D
+V
 	
 
-CAB
+USD
 
-8 octobre
+16 octobre
 
-À domicile
+À l'extérieur
 
 RC Narbonnais
 	
