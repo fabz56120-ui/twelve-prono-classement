@@ -219,6 +219,39 @@ FCG
 
 À domicile
 
+Biarritz Olympique PB
+	
+20
+	
+7
+	
+4
+	
+1
+	
+2
+	
+2
+	
+213
+	
+191
+	
++22
+	
+V
+V
+V
+D
+N
+	
+
+FCG
+
+23 octobre
+
+À l'extérieur
+
 US Dax
 	
 19
@@ -285,38 +318,38 @@ CAB
 
 À l'extérieur
 
-Biarritz Olympique PB
+Soyaux-Angoulême XV
 	
-18
+17
 	
-6
+7
 	
-4
+3
 	
-0
+1
 	
-2
+3
 	
-2
+3
 	
-186
+220
 	
-164
+180
 	
-+22
++40
 	
 V
-V
+D
 V
 D
 N
 	
 
-FCG
+USD
 
 23 octobre
 
-À l'extérieur
+À domicile
 
 US Montauban
 	
@@ -384,34 +417,34 @@ USON
 
 À domicile
 
-Soyaux-Angoulême XV
+SU Agen
 	
 15
 	
-6
+7
 	
 3
 	
 0
 	
-3
+4
 	
 3
 	
-193
+189
 	
-153
+206
 	
-+40
+-17
 	
 V
 D
-V
 D
-N
+V
+V
 	
 
-USD
+SN
 
 23 octobre
 
@@ -516,39 +549,6 @@ SUA
 
 À l'extérieur
 
-SU Agen
-	
-10
-	
-6
-	
-2
-	
-0
-	
-4
-	
-2
-	
-151
-	
-199
-	
--48
-	
-V
-D
-D
-V
-V
-	
-
-SN
-
-23 octobre
-
-À domicile
-
 AS Béziers Hérault
 	
 9
@@ -619,21 +619,21 @@ USON Nevers
 	
 4
 	
-6
+7
 	
 0
 	
 0
 	
-6
+7
 	
 4
 	
-139
+146
 	
-184
+222
 	
--45
+-76
 	
 D
 D

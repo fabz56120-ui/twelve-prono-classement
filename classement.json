@@ -37,6 +37,17 @@
         },
         {
             "position": 4,
+            "equipe": "Biarritz Olympique PB",
+            "victoires": 4,
+            "nuls": 1,
+            "defaites": 2,
+            "pointsPour": 213,
+            "pointsContre": 191,
+            "difference": 22,
+            "points": 20
+        },
+        {
+            "position": 5,
             "equipe": "US Dax",
             "victoires": 4,
             "nuls": 0,
@@ -47,7 +58,7 @@
             "points": 19
         },
         {
-            "position": 5,
+            "position": 6,
             "equipe": "FC Grenoble Rugby",
             "victoires": 4,
             "nuls": 0,
@@ -58,18 +69,18 @@
             "points": 18
         },
         {
-            "position": 6,
-            "equipe": "Biarritz Olympique PB",
-            "victoires": 4,
-            "nuls": 0,
-            "defaites": 2,
-            "pointsPour": 186,
-            "pointsContre": 164,
-            "difference": 22,
-            "points": 18
+            "position": 7,
+            "equipe": "Soyaux-Angoulême XV",
+            "victoires": 3,
+            "nuls": 1,
+            "defaites": 3,
+            "pointsPour": 220,
+            "pointsContre": 180,
+            "difference": 40,
+            "points": 17
         },
         {
-            "position": 7,
+            "position": 8,
             "equipe": "US Montauban",
             "victoires": 4,
             "nuls": 0,
@@ -80,7 +91,7 @@
             "points": 17
         },
         {
-            "position": 8,
+            "position": 9,
             "equipe": "Stade Aurillacois",
             "victoires": 3,
             "nuls": 0,
@@ -91,18 +102,18 @@
             "points": 16
         },
         {
-            "position": 9,
-            "equipe": "Soyaux-Angoulême XV",
+            "position": 10,
+            "equipe": "SU Agen",
             "victoires": 3,
             "nuls": 0,
-            "defaites": 3,
-            "pointsPour": 193,
-            "pointsContre": 153,
-            "difference": 40,
+            "defaites": 4,
+            "pointsPour": 189,
+            "pointsContre": 206,
+            "difference": -17,
             "points": 15
         },
         {
-            "position": 10,
+            "position": 11,
             "equipe": "Valence Romans",
             "victoires": 2,
             "nuls": 0,
@@ -113,7 +124,7 @@
             "points": 13
         },
         {
-            "position": 11,
+            "position": 12,
             "equipe": "Colomiers Rugby",
             "victoires": 2,
             "nuls": 0,
@@ -124,7 +135,7 @@
             "points": 12
         },
         {
-            "position": 12,
+            "position": 13,
             "equipe": "Nissa Rugby",
             "victoires": 2,
             "nuls": 0,
@@ -133,17 +144,6 @@
             "pointsContre": 213,
             "difference": -42,
             "points": 11
-        },
-        {
-            "position": 13,
-            "equipe": "SU Agen",
-            "victoires": 2,
-            "nuls": 0,
-            "defaites": 4,
-            "pointsPour": 151,
-            "pointsContre": 199,
-            "difference": -48,
-            "points": 10
         },
         {
             "position": 14,
@@ -172,10 +172,10 @@
             "equipe": "USON Nevers",
             "victoires": 0,
             "nuls": 0,
-            "defaites": 6,
-            "pointsPour": 139,
-            "pointsContre": 184,
-            "difference": -45,
+            "defaites": 7,
+            "pointsPour": 146,
+            "pointsContre": 222,
+            "difference": -76,
             "points": 4
         }
     ]
