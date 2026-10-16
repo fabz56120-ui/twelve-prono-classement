@@ -309,7 +309,7 @@ V
 V
 V
 D
-V
+N
 	
 
 FCG
@@ -408,7 +408,7 @@ V
 D
 V
 D
-D
+N
 	
 
 USD
