@@ -26,17 +26,28 @@
         },
         {
             "position": 3,
-            "equipe": "CA Brive",
+            "equipe": "FC Grenoble Rugby",
             "victoires": 5,
             "nuls": 0,
-            "defaites": 1,
-            "pointsPour": 192,
-            "pointsContre": 138,
-            "difference": 54,
-            "points": 21
+            "defaites": 2,
+            "pointsPour": 213,
+            "pointsContre": 176,
+            "difference": 37,
+            "points": 22
         },
         {
             "position": 4,
+            "equipe": "CA Brive",
+            "victoires": 5,
+            "nuls": 0,
+            "defaites": 2,
+            "pointsPour": 206,
+            "pointsContre": 164,
+            "difference": 42,
+            "points": 21
+        },
+        {
+            "position": 5,
             "equipe": "Biarritz Olympique PB",
             "victoires": 4,
             "nuls": 1,
@@ -47,7 +58,7 @@
             "points": 20
         },
         {
-            "position": 5,
+            "position": 6,
             "equipe": "US Dax",
             "victoires": 4,
             "nuls": 0,
@@ -56,17 +67,6 @@
             "pointsContre": 264,
             "difference": 5,
             "points": 19
-        },
-        {
-            "position": 6,
-            "equipe": "FC Grenoble Rugby",
-            "victoires": 4,
-            "nuls": 0,
-            "defaites": 2,
-            "pointsPour": 187,
-            "pointsContre": 162,
-            "difference": 25,
-            "points": 18
         },
         {
             "position": 7,
