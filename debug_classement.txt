@@ -209,15 +209,15 @@ CA Brive
 V
 V
 V
-V
+D
 D
 	
 
-FCG
+RCN
 
-17 octobre
+23 octobre
 
-À domicile
+À l'extérieur
 
 Biarritz Olympique PB
 	
@@ -306,17 +306,17 @@ FC Grenoble Rugby
 +25
 	
 D
-D
+V
 V
 V
 V
 	
 
-CAB
+BO
 
-17 octobre
+23 octobre
 
-À l'extérieur
+À domicile
 
 Soyaux-Angoulême XV
 	
