@@ -62,6 +62,7 @@ J4
 J5
 J6
 J7
+J8
 CLASSEMENT
 Rang
 	
