@@ -145,7 +145,7 @@ V
 V
 V
 V
-D
+V
 	
 
 SA XV
@@ -376,7 +376,7 @@ V
 D
 V
 D
-V
+D
 	
 
 RCN
