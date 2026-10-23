@@ -123,29 +123,29 @@ Etat de forme
 Prochain match
 Oyonnax Rugby
 	
-33
+34
 	
-7
+8
 	
 7
 	
 0
 	
-0
+1
 	
-5
+6
 	
-313
+336
 	
-154
+178
 	
-+159
++158
 	
 V
 V
 V
 V
-V
+D
 	
 
 SA XV
@@ -181,11 +181,44 @@ V
 V
 	
 
-ASBH
+USD
 
-23 octobre
+29 octobre
 
-À domicile
+À l'extérieur
+
+Soyaux-Angoulême XV
+	
+22
+	
+8
+	
+4
+	
+1
+	
+3
+	
+4
+	
+269
+	
+187
+	
++82
+	
+D
+V
+D
+N
+V
+	
+
+OYO
+
+30 octobre
+
+À l'extérieur
 
 FC Grenoble Rugby
 	
@@ -207,49 +240,115 @@ FC Grenoble Rugby
 	
 +37
 	
-D
+V
 V
 V
 V
 V
 	
 
-BO
+ASBH
 
-23 octobre
+30 octobre
 
-À domicile
+À l'extérieur
 
 CA Brive
 	
 21
 	
-7
+8
 	
 5
 	
 0
 	
-2
+3
+	
+1
+	
+232
+	
+198
+	
++34
+	
+V
+V
+D
+D
+D
+	
+
+USON
+
+30 octobre
+
+À l'extérieur
+
+US Montauban
+	
+21
+	
+8
+	
+5
+	
+0
+	
+3
 	
 1
 	
 206
 	
-164
+237
 	
-+42
+-31
 	
-V
-V
 V
 D
+V
 D
+V
 	
 
 RCN
 
-23 octobre
+30 octobre
+
+À domicile
+
+Stade Aurillacois
+	
+21
+	
+8
+	
+4
+	
+0
+	
+4
+	
+5
+	
+281
+	
+270
+	
++11
+	
+D
+D
+V
+V
+V
+	
+
+SN
+
+30 octobre
 
 À l'extérieur
 
@@ -275,14 +374,47 @@ Biarritz Olympique PB
 	
 V
 V
-V
 D
 N
+D
 	
 
-FCG
+VRDR
 
-23 octobre
+30 octobre
+
+À domicile
+
+SU Agen
+	
+19
+	
+8
+	
+4
+	
+0
+	
+4
+	
+3
+	
+217
+	
+230
+	
+-13
+	
+D
+D
+V
+V
+V
+	
+
+CR
+
+30 octobre
 
 À l'extérieur
 
@@ -290,254 +422,89 @@ US Dax
 	
 19
 	
-7
+8
 	
 4
 	
 0
 	
-3
-	
-3
-	
-269
-	
-264
-	
-+5
-	
-V
-D
-V
-D
-V
-	
-
-SA XV
-
-23 octobre
-
-À l'extérieur
-
-Soyaux-Angoulême XV
-	
-17
-	
-7
-	
-3
-	
-1
-	
-3
-	
-3
-	
-220
-	
-180
-	
-+40
-	
-V
-D
-V
-D
-N
-	
-
-USD
-
-23 octobre
-
-À domicile
-
-US Montauban
-	
-17
-	
-7
-	
-4
-	
-0
-	
-3
-	
-1
-	
-182
-	
-214
-	
--32
-	
-V
-D
-V
-D
-D
-	
-
-RCN
-
-30 octobre
-
-À domicile
-
-Stade Aurillacois
-	
-16
-	
-7
-	
-3
-	
-0
-	
-4
-	
-4
-	
-240
-	
-254
-	
--14
-	
-D
-D
-D
-V
-V
-	
-
-USON
-
-23 octobre
-
-À domicile
-
-SU Agen
-	
-15
-	
-7
-	
-3
-	
-0
-	
 4
 	
 3
 	
-189
+276
 	
-206
+313
 	
--17
+-37
 	
-V
-D
 D
 V
+D
 V
+D
 	
 
-SN
+PR
 
-23 octobre
+29 octobre
 
 À domicile
 
 Valence Romans
 	
-13
+17
 	
-7
-	
-2
-	
-0
-	
-5
-	
-5
-	
-192
-	
-190
-	
-+2
-	
-D
-D
-D
-V
-D
-	
-
-CR
-
-23 octobre
-
-À domicile
-
-Colomiers Rugby
-	
-12
-	
-7
-	
-2
-	
-0
-	
-5
-	
-4
-	
-220
-	
-207
-	
-+13
-	
-D
-V
-D
-D
-V
-	
-
-VRDR
-
-23 octobre
-
-À l'extérieur
-
-Nissa Rugby
-	
-11
-	
-7
-	
-2
-	
-0
-	
-5
+8
 	
 3
 	
-171
+0
+	
+5
+	
+5
+	
+220
 	
 213
 	
--42
++7
 	
 D
+D
+V
+D
+V
+	
+
+BO
+
+30 octobre
+
+À l'extérieur
+
+Colomiers Rugby
+	
+13
+	
+8
+	
+2
+	
+0
+	
+6
+	
+5
+	
+243
+	
+235
+	
++8
+	
+V
 D
 D
 V
@@ -546,9 +513,75 @@ D
 
 SUA
 
-23 octobre
+30 octobre
+
+À domicile
+
+RC Narbonnais
+	
+13
+	
+8
+	
+3
+	
+0
+	
+5
+	
+1
+	
+220
+	
+322
+	
+-102
+	
+V
+D
+D
+D
+V
+	
+
+USM
+
+30 octobre
 
 À l'extérieur
+
+Nissa Rugby
+	
+12
+	
+8
+	
+2
+	
+0
+	
+6
+	
+4
+	
+195
+	
+241
+	
+-46
+	
+D
+D
+V
+D
+D
+	
+
+SA
+
+30 octobre
+
+À domicile
 
 AS Béziers Hérault
 	
@@ -570,39 +603,6 @@ AS Béziers Hérault
 	
 -93
 	
-V
-D
-V
-D
-D
-	
-
-PR
-
-23 octobre
-
-À l'extérieur
-
-RC Narbonnais
-	
-9
-	
-7
-	
-2
-	
-0
-	
-5
-	
-1
-	
-186
-	
-296
-	
--110
-	
 D
 V
 D
@@ -610,9 +610,9 @@ D
 D
 	
 
-CAB
+FCG
 
-23 octobre
+30 octobre
 
 À domicile
 
@@ -620,21 +620,21 @@ USON Nevers
 	
 4
 	
-7
+8
 	
 0
 	
 0
 	
-7
+8
 	
 4
 	
-146
+162
 	
-222
+263
 	
--76
+-101
 	
 D
 D
@@ -643,11 +643,11 @@ D
 D
 	
 
-SA
+CAB
 
-23 octobre
+30 octobre
 
-À l'extérieur
+À domicile
 
   Qualifiés pour les demi-finales
 
