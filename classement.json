@@ -16,16 +16,27 @@
         {
             "position": 2,
             "equipe": "Provence Rugby",
-            "victoires": 7,
+            "victoires": 8,
             "nuls": 0,
             "defaites": 0,
-            "pointsPour": 222,
-            "pointsContre": 158,
-            "difference": 64,
-            "points": 29
+            "pointsPour": 276,
+            "pointsContre": 161,
+            "difference": 115,
+            "points": 34
         },
         {
             "position": 3,
+            "equipe": "FC Grenoble Rugby",
+            "victoires": 6,
+            "nuls": 0,
+            "defaites": 2,
+            "pointsPour": 237,
+            "pointsContre": 186,
+            "difference": 51,
+            "points": 26
+        },
+        {
+            "position": 4,
             "equipe": "Soyaux-Angoulême XV",
             "victoires": 4,
             "nuls": 1,
@@ -33,17 +44,6 @@
             "pointsPour": 269,
             "pointsContre": 187,
             "difference": 82,
-            "points": 22
-        },
-        {
-            "position": 4,
-            "equipe": "FC Grenoble Rugby",
-            "victoires": 5,
-            "nuls": 0,
-            "defaites": 2,
-            "pointsPour": 213,
-            "pointsContre": 176,
-            "difference": 37,
             "points": 22
         },
         {
@@ -84,10 +84,10 @@
             "equipe": "Biarritz Olympique PB",
             "victoires": 4,
             "nuls": 1,
-            "defaites": 2,
-            "pointsPour": 213,
-            "pointsContre": 191,
-            "difference": 22,
+            "defaites": 3,
+            "pointsPour": 223,
+            "pointsContre": 215,
+            "difference": 8,
             "points": 20
         },
         {
@@ -161,10 +161,10 @@
             "equipe": "AS Béziers Hérault",
             "victoires": 2,
             "nuls": 0,
-            "defaites": 5,
-            "pointsPour": 147,
-            "pointsContre": 240,
-            "difference": -93,
+            "defaites": 6,
+            "pointsPour": 150,
+            "pointsContre": 294,
+            "difference": -144,
             "points": 9
         },
         {

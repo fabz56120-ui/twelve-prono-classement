@@ -156,23 +156,23 @@ SA XV
 
 Provence Rugby
 	
-29
+34
 	
-7
+8
 	
-7
-	
-0
+8
 	
 0
 	
-1
+0
 	
-222
+2
 	
-158
+276
 	
-+64
+161
+	
++115
 	
 V
 V
@@ -184,6 +184,39 @@ V
 USD
 
 29 octobre
+
+À l'extérieur
+
+FC Grenoble Rugby
+	
+26
+	
+8
+	
+6
+	
+0
+	
+2
+	
+2
+	
+237
+	
+186
+	
++51
+	
+V
+V
+V
+V
+V
+	
+
+ASBH
+
+30 octobre
 
 À l'extérieur
 
@@ -215,39 +248,6 @@ V
 	
 
 OYO
-
-30 octobre
-
-À l'extérieur
-
-FC Grenoble Rugby
-	
-22
-	
-7
-	
-5
-	
-0
-	
-2
-	
-2
-	
-213
-	
-176
-	
-+37
-	
-V
-V
-V
-V
-V
-	
-
-ASBH
 
 30 octobre
 
@@ -356,21 +356,21 @@ Biarritz Olympique PB
 	
 20
 	
-7
+8
 	
 4
 	
 1
 	
-2
+3
 	
 2
 	
-213
+223
 	
-191
+215
 	
-+22
++8
 	
 V
 V
@@ -587,21 +587,21 @@ AS Béziers Hérault
 	
 9
 	
-7
+8
 	
 2
 	
 0
 	
-5
+6
 	
 1
 	
-147
+150
 	
-240
+294
 	
--93
+-144
 	
 D
 V
