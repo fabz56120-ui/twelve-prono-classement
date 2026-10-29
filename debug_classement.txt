@@ -122,6 +122,39 @@ Diff
 Etat de forme
 	
 Prochain match
+Provence Rugby
+	
+36
+	
+9
+	
+8
+	
+1
+	
+0
+	
+2
+	
+292
+	
+177
+	
++115
+	
+V
+V
+V
+V
+N
+	
+
+OYO
+
+6 novembre
+
+À domicile
+
 Oyonnax Rugby
 	
 34
@@ -152,39 +185,6 @@ D
 SA XV
 
 30 octobre
-
-À domicile
-
-Provence Rugby
-	
-34
-	
-8
-	
-8
-	
-0
-	
-0
-	
-2
-	
-276
-	
-161
-	
-+115
-	
-V
-V
-V
-V
-N
-	
-
-OYO
-
-6 novembre
 
 À domicile
 
@@ -254,6 +254,72 @@ OYO
 
 À l'extérieur
 
+Stade Aurillacois
+	
+21
+	
+8
+	
+4
+	
+0
+	
+4
+	
+5
+	
+281
+	
+270
+	
++11
+	
+D
+D
+V
+V
+V
+	
+
+SN
+
+30 octobre
+
+À l'extérieur
+
+US Dax
+	
+21
+	
+9
+	
+4
+	
+1
+	
+4
+	
+3
+	
+292
+	
+329
+	
+-37
+	
+V
+D
+V
+D
+N
+	
+
+CAB
+
+6 novembre
+
+À l'extérieur
+
 CA Brive
 	
 21
@@ -320,39 +386,6 @@ RCN
 
 À domicile
 
-Stade Aurillacois
-	
-21
-	
-8
-	
-4
-	
-0
-	
-4
-	
-5
-	
-281
-	
-270
-	
-+11
-	
-D
-D
-V
-V
-V
-	
-
-SN
-
-30 octobre
-
-À l'extérieur
-
 Biarritz Olympique PB
 	
 20
@@ -416,39 +449,6 @@ V
 CR
 
 30 octobre
-
-À l'extérieur
-
-US Dax
-	
-19
-	
-8
-	
-4
-	
-0
-	
-4
-	
-3
-	
-276
-	
-313
-	
--37
-	
-V
-D
-V
-D
-N
-	
-
-CAB
-
-6 novembre
 
 À l'extérieur
 

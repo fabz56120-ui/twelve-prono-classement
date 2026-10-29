@@ -4,6 +4,17 @@
     "classement": [
         {
             "position": 1,
+            "equipe": "Provence Rugby",
+            "victoires": 8,
+            "nuls": 1,
+            "defaites": 0,
+            "pointsPour": 292,
+            "pointsContre": 177,
+            "difference": 115,
+            "points": 36
+        },
+        {
+            "position": 2,
             "equipe": "Oyonnax Rugby",
             "victoires": 7,
             "nuls": 0,
@@ -11,17 +22,6 @@
             "pointsPour": 336,
             "pointsContre": 178,
             "difference": 158,
-            "points": 34
-        },
-        {
-            "position": 2,
-            "equipe": "Provence Rugby",
-            "victoires": 8,
-            "nuls": 0,
-            "defaites": 0,
-            "pointsPour": 276,
-            "pointsContre": 161,
-            "difference": 115,
             "points": 34
         },
         {
@@ -48,28 +48,6 @@
         },
         {
             "position": 5,
-            "equipe": "CA Brive",
-            "victoires": 5,
-            "nuls": 0,
-            "defaites": 3,
-            "pointsPour": 232,
-            "pointsContre": 198,
-            "difference": 34,
-            "points": 21
-        },
-        {
-            "position": 6,
-            "equipe": "US Montauban",
-            "victoires": 5,
-            "nuls": 0,
-            "defaites": 3,
-            "pointsPour": 206,
-            "pointsContre": 237,
-            "difference": -31,
-            "points": 21
-        },
-        {
-            "position": 7,
             "equipe": "Stade Aurillacois",
             "victoires": 4,
             "nuls": 0,
@@ -80,7 +58,40 @@
             "points": 21
         },
         {
+            "position": 6,
+            "equipe": "US Dax",
+            "victoires": 4,
+            "nuls": 1,
+            "defaites": 4,
+            "pointsPour": 292,
+            "pointsContre": 329,
+            "difference": -37,
+            "points": 21
+        },
+        {
+            "position": 7,
+            "equipe": "CA Brive",
+            "victoires": 5,
+            "nuls": 0,
+            "defaites": 3,
+            "pointsPour": 232,
+            "pointsContre": 198,
+            "difference": 34,
+            "points": 21
+        },
+        {
             "position": 8,
+            "equipe": "US Montauban",
+            "victoires": 5,
+            "nuls": 0,
+            "defaites": 3,
+            "pointsPour": 206,
+            "pointsContre": 237,
+            "difference": -31,
+            "points": 21
+        },
+        {
+            "position": 9,
             "equipe": "Biarritz Olympique PB",
             "victoires": 4,
             "nuls": 1,
@@ -91,7 +102,7 @@
             "points": 20
         },
         {
-            "position": 9,
+            "position": 10,
             "equipe": "SU Agen",
             "victoires": 4,
             "nuls": 0,
@@ -99,17 +110,6 @@
             "pointsPour": 217,
             "pointsContre": 230,
             "difference": -13,
-            "points": 19
-        },
-        {
-            "position": 10,
-            "equipe": "US Dax",
-            "victoires": 4,
-            "nuls": 0,
-            "defaites": 4,
-            "pointsPour": 276,
-            "pointsContre": 313,
-            "difference": -37,
             "points": 19
         },
         {
