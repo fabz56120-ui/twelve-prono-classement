@@ -20,7 +20,7 @@ TOUS LES SITES LNR
 Connexion
 Billetterie
 
-Tour des stades : 1 week-end, 3 matchs, tentez de gagner un week-end inoubliable !
+Championnat des Nations : Gagne 2 places pour le week-end final à Twickenham
 
 CLASSEMENT
 Accueil 
@@ -122,6 +122,39 @@ Diff
 Etat de forme
 	
 Prochain match
+Oyonnax Rugby
+	
+38
+	
+9
+	
+8
+	
+0
+	
+1
+	
+6
+	
+358
+	
+191
+	
++167
+	
+V
+V
+V
+D
+V
+	
+
+PR
+
+6 novembre
+
+À l'extérieur
+
 Provence Rugby
 	
 36
@@ -155,69 +188,135 @@ OYO
 
 À domicile
 
-Oyonnax Rugby
+FC Grenoble Rugby
 	
-34
+30
 	
-8
+9
 	
 7
 	
 0
 	
-1
+2
 	
-6
+2
 	
-336
+264
 	
-178
+211
 	
-+158
++53
 	
 V
 V
 V
 V
-D
+V
 	
 
 SA XV
 
-30 octobre
+6 novembre
 
-À domicile
+À l'extérieur
 
-FC Grenoble Rugby
+CA Brive
 	
 26
 	
-8
+9
 	
 6
 	
 0
 	
-2
+3
 	
 2
 	
-237
+265
 	
-186
+210
 	
-+51
++55
 	
 V
+D
+D
+D
 V
+	
+
+USD
+
+6 novembre
+
+À domicile
+
+US Montauban
+	
+25
+	
+9
+	
+6
+	
+0
+	
+3
+	
+1
+	
+239
+	
+265
+	
+-26
+	
+D
 V
+D
 V
 V
 	
 
-ASBH
+SA
 
-30 octobre
+6 novembre
+
+À l'extérieur
+
+Biarritz Olympique PB
+	
+24
+	
+9
+	
+5
+	
+1
+	
+3
+	
+2
+	
+257
+	
+245
+	
++12
+	
+V
+D
+N
+D
+V
+	
+
+SUA
+
+5 novembre
 
 À l'extérieur
 
@@ -225,67 +324,67 @@ Soyaux-Angoulême XV
 	
 22
 	
-8
+9
 	
 4
 	
 1
 	
-3
+4
 	
 4
 	
-269
+282
 	
-187
+209
 	
-+82
++73
 	
-D
 V
 D
 N
 V
+D
 	
 
-OYO
+FCG
 
-30 octobre
+6 novembre
 
-À l'extérieur
+À domicile
 
 Stade Aurillacois
 	
 21
 	
-8
+9
 	
 4
 	
 0
 	
-4
+5
 	
 5
 	
-281
+301
 	
-270
+299
 	
-+11
++2
 	
 D
+V
+V
+V
 D
-V
-V
-V
 	
 
-SN
+USM
 
-30 octobre
+6 novembre
 
-À l'extérieur
+À domicile
 
 US Dax
 	
@@ -320,322 +419,223 @@ CAB
 
 À l'extérieur
 
-CA Brive
+SU Agen
 	
-21
+19
 	
-8
+9
 	
-5
+4
 	
 0
 	
+5
+	
 3
 	
-1
+236
 	
-232
+267
 	
-198
+-31
 	
-+34
-	
+D
+V
 V
 V
 D
+	
+
+BO
+
+5 novembre
+
+À domicile
+
+Valence Romans
+	
+18
+	
+9
+	
+3
+	
+0
+	
+6
+	
+6
+	
+250
+	
+247
+	
++3
+	
 D
+V
+D
+V
 D
 	
 
 USON
 
-30 octobre
+6 novembre
 
-À l'extérieur
+À domicile
 
-US Montauban
+Colomiers Rugby
 	
-21
+18
 	
-8
-	
-5
-	
-0
+9
 	
 3
 	
-1
+0
 	
-206
+6
 	
-237
+6
 	
--31
+280
 	
+254
+	
++26
+	
+D
+D
 V
 D
 V
+	
+
+ASBH
+
+6 novembre
+
+À domicile
+
+Nissa Rugby
+	
+16
+	
+9
+	
+3
+	
+0
+	
+6
+	
+4
+	
+224
+	
+261
+	
+-37
+	
+D
+V
+D
 D
 V
 	
 
 RCN
 
-30 octobre
-
-À domicile
-
-Biarritz Olympique PB
-	
-20
-	
-8
-	
-4
-	
-1
-	
-3
-	
-2
-	
-223
-	
-215
-	
-+8
-	
-V
-V
-D
-N
-D
-	
-
-VRDR
-
-30 octobre
-
-À domicile
-
-SU Agen
-	
-19
-	
-8
-	
-4
-	
-0
-	
-4
-	
-3
-	
-217
-	
-230
-	
--13
-	
-D
-D
-V
-V
-V
-	
-
-CR
-
-30 octobre
+6 novembre
 
 À l'extérieur
-
-Valence Romans
-	
-17
-	
-8
-	
-3
-	
-0
-	
-5
-	
-5
-	
-220
-	
-213
-	
-+7
-	
-D
-D
-V
-D
-V
-	
-
-BO
-
-30 octobre
-
-À l'extérieur
-
-Colomiers Rugby
-	
-13
-	
-8
-	
-2
-	
-0
-	
-6
-	
-5
-	
-243
-	
-235
-	
-+8
-	
-V
-D
-D
-V
-D
-	
-
-SUA
-
-30 octobre
-
-À domicile
 
 RC Narbonnais
 	
-13
+14
 	
-8
+9
 	
 3
 	
 0
 	
-5
-	
-1
-	
-220
-	
-322
-	
--102
-	
-V
-D
-D
-D
-V
-	
-
-USM
-
-30 octobre
-
-À l'extérieur
-
-Nissa Rugby
-	
-12
-	
-8
+6
 	
 2
 	
-0
+248
 	
-6
+355
 	
-4
+-107
 	
-195
-	
-241
-	
--46
-	
+D
 D
 D
 V
 D
-D
 	
 
-SA
+SN
 
-30 octobre
+6 novembre
 
 À domicile
 
 AS Béziers Hérault
 	
-9
+10
 	
-8
+9
 	
 2
 	
 0
 	
-6
+7
 	
-1
+2
 	
-150
+175
 	
-294
+321
 	
--144
+-146
 	
-D
 V
 D
 D
 D
+D
 	
 
-FCG
+CR
 
-30 octobre
+6 novembre
 
-À domicile
+À l'extérieur
 
 USON Nevers
 	
 4
 	
-8
+9
 	
 0
 	
 0
 	
-8
+9
 	
 4
 	
-162
+174
 	
-263
+296
 	
--101
+-122
 	
 D
 D
@@ -644,11 +644,11 @@ D
 D
 	
 
-CAB
+VRDR
 
-30 octobre
+6 novembre
 
-À domicile
+À l'extérieur
 
   Qualifiés pour les demi-finales
 
