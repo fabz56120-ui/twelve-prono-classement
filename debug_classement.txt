@@ -64,6 +64,7 @@ J6
 J7
 J8
 J9
+J10
 CLASSEMENT
 Rang
 	
@@ -307,18 +308,18 @@ Biarritz Olympique PB
 	
 +12
 	
-V
 D
 N
 D
 V
+D
 	
 
-SUA
+RCN
 
-5 novembre
+20 novembre
 
-À l'extérieur
+À domicile
 
 Soyaux-Angoulême XV
 	
@@ -439,18 +440,18 @@ SU Agen
 	
 -31
 	
-D
 V
 V
 V
 D
+V
 	
 
-BO
+USM
 
-5 novembre
+20 novembre
 
-À domicile
+À l'extérieur
 
 Valence Romans
 	
