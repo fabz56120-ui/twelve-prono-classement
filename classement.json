@@ -59,17 +59,28 @@
         },
         {
             "position": 6,
-            "equipe": "Biarritz Olympique PB",
+            "equipe": "SU Agen",
             "victoires": 5,
-            "nuls": 1,
-            "defaites": 3,
-            "pointsPour": 257,
-            "pointsContre": 245,
-            "difference": 12,
+            "nuls": 0,
+            "defaites": 5,
+            "pointsPour": 288,
+            "pointsContre": 284,
+            "difference": 4,
             "points": 24
         },
         {
             "position": 7,
+            "equipe": "Biarritz Olympique PB",
+            "victoires": 5,
+            "nuls": 1,
+            "defaites": 4,
+            "pointsPour": 274,
+            "pointsContre": 297,
+            "difference": -23,
+            "points": 24
+        },
+        {
+            "position": 8,
             "equipe": "Soyaux-Angoulême XV",
             "victoires": 4,
             "nuls": 1,
@@ -80,7 +91,7 @@
             "points": 22
         },
         {
-            "position": 8,
+            "position": 9,
             "equipe": "Stade Aurillacois",
             "victoires": 4,
             "nuls": 0,
@@ -91,7 +102,7 @@
             "points": 21
         },
         {
-            "position": 9,
+            "position": 10,
             "equipe": "US Dax",
             "victoires": 4,
             "nuls": 1,
@@ -100,17 +111,6 @@
             "pointsContre": 329,
             "difference": -37,
             "points": 21
-        },
-        {
-            "position": 10,
-            "equipe": "SU Agen",
-            "victoires": 4,
-            "nuls": 0,
-            "defaites": 5,
-            "pointsPour": 236,
-            "pointsContre": 267,
-            "difference": -31,
-            "points": 19
         },
         {
             "position": 11,
