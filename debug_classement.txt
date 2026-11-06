@@ -123,112 +123,112 @@ Diff
 Etat de forme
 	
 Prochain match
+Provence Rugby
+	
+41
+	
+10
+	
+9
+	
+1
+	
+0
+	
+3
+	
+324
+	
+200
+	
++124
+	
+V
+V
+V
+N
+V
+	
+
+FCG
+
+19 novembre
+
+À l'extérieur
+
 Oyonnax Rugby
 	
 38
 	
-9
+10
 	
 8
-	
-0
-	
-1
-	
-6
-	
-358
-	
-191
-	
-+167
-	
-V
-V
-V
-D
-V
-	
-
-PR
-
-6 novembre
-
-À l'extérieur
-
-Provence Rugby
-	
-36
-	
-9
-	
-8
-	
-1
 	
 0
 	
 2
 	
-292
+6
 	
-177
+381
 	
-+115
+223
+	
++158
 	
 V
 V
+D
 V
-V
-N
+D
 	
 
-OYO
+CAB
 
-6 novembre
+20 novembre
 
 À domicile
 
-FC Grenoble Rugby
+CA Brive
 	
-30
+31
 	
-9
+10
 	
 7
 	
 0
 	
-2
+3
 	
-2
+3
 	
-264
+336
 	
-211
+238
 	
-+53
++98
 	
-V
-V
-V
+D
+D
+D
 V
 V
 	
 
-SA XV
+OYO
 
-6 novembre
+20 novembre
 
 À l'extérieur
 
-CA Brive
+FC Grenoble Rugby
 	
-26
+30
 	
-9
+10
 	
-6
+7
 	
 0
 	
@@ -236,22 +236,88 @@ CA Brive
 	
 2
 	
-265
+288
 	
-210
+241
 	
-+55
++47
 	
 V
+V
+V
+V
 D
+	
+
+PR
+
+19 novembre
+
+À domicile
+
+Soyaux-Angoulême XV
+	
+26
+	
+10
+	
+5
+	
+1
+	
+4
+	
+4
+	
+312
+	
+233
+	
++79
+	
 D
+N
+V
 D
 V
 	
 
-USD
+USON
 
-6 novembre
+20 novembre
+
+À l'extérieur
+
+Stade Aurillacois
+	
+26
+	
+10
+	
+5
+	
+0
+	
+5
+	
+6
+	
+361
+	
+307
+	
++54
+	
+V
+V
+V
+D
+V
+	
+
+CR
+
+20 novembre
 
 À domicile
 
@@ -259,34 +325,34 @@ US Montauban
 	
 25
 	
-9
+10
 	
 6
 	
 0
 	
-3
+4
 	
 1
 	
-239
+247
 	
-265
+325
 	
--26
+-78
 	
-D
 V
 D
 V
 V
+D
 	
 
-SA
+SUA
 
-6 novembre
+20 novembre
 
-À l'extérieur
+À domicile
 
 SU Agen
 	
@@ -354,178 +420,112 @@ RCN
 
 À domicile
 
-Soyaux-Angoulême XV
+Valence Romans
 	
-22
+23
 	
-9
-	
-4
-	
-1
-	
-4
-	
-4
-	
-282
-	
-209
-	
-+73
-	
-V
-D
-N
-V
-D
-	
-
-FCG
-
-6 novembre
-
-À domicile
-
-Stade Aurillacois
-	
-21
-	
-9
+10
 	
 4
 	
 0
 	
-5
+6
 	
-5
+7
 	
-301
+296
 	
-299
+259
 	
-+2
++37
+	
+V
+D
+V
+D
+V
+	
+
+SN
+
+20 novembre
+
+À l'extérieur
+
+Colomiers Rugby
+	
+23
+	
+10
+	
+4
+	
+0
+	
+6
+	
+7
+	
+333
+	
+273
+	
++60
 	
 D
 V
-V
-V
 D
+V
+V
 	
 
-USM
+SA
 
-6 novembre
+20 novembre
 
-À domicile
+À l'extérieur
 
 US Dax
 	
 21
 	
-9
+10
 	
 4
 	
 1
 	
-4
+5
 	
 3
 	
-292
+320
 	
-329
+400
 	
--37
+-80
 	
-V
 D
 V
 D
 N
-	
-
-CAB
-
-6 novembre
-
-À l'extérieur
-
-Valence Romans
-	
-18
-	
-9
-	
-3
-	
-0
-	
-6
-	
-6
-	
-250
-	
-247
-	
-+3
-	
 D
-V
-D
-V
-D
-	
-
-USON
-
-6 novembre
-
-À domicile
-
-Colomiers Rugby
-	
-18
-	
-9
-	
-3
-	
-0
-	
-6
-	
-6
-	
-280
-	
-254
-	
-+26
-	
-D
-D
-V
-D
-V
 	
 
 ASBH
 
-6 novembre
+20 novembre
 
-À domicile
+À l'extérieur
 
 Nissa Rugby
 	
-16
+20
 	
-9
+10
 	
-3
+4
 	
 0
 	
@@ -533,110 +533,110 @@ Nissa Rugby
 	
 4
 	
-224
+253
 	
-261
+287
 	
--37
+-34
 	
-D
 V
 D
 D
 V
-	
-
-RCN
-
-6 novembre
-
-À l'extérieur
-
-RC Narbonnais
-	
-14
-	
-9
-	
-3
-	
-0
-	
-6
-	
-2
-	
-248
-	
-355
-	
--107
-	
-D
-D
-D
 V
-D
 	
 
-SN
+VRDR
 
-6 novembre
+20 novembre
 
 À domicile
 
-AS Béziers Hérault
+RC Narbonnais
+	
+15
 	
 10
 	
-9
-	
-2
+3
 	
 0
 	
 7
 	
-2
+3
 	
-175
+274
 	
-321
+384
 	
--146
+-110
 	
+D
+D
 V
 D
 D
+	
+
+BO
+
+20 novembre
+
+À l'extérieur
+
+AS Béziers Hérault
+	
+10
+	
+10
+	
+2
+	
+0
+	
+8
+	
+2
+	
+194
+	
+374
+	
+-180
+	
+D
+D
+D
 D
 D
 	
 
-CR
+USD
 
-6 novembre
+20 novembre
 
-À l'extérieur
+À domicile
 
 USON Nevers
 	
 4
 	
-9
+10
 	
 0
 	
 0
 	
-9
+10
 	
 4
 	
-174
+186
 	
-296
+342
 	
--122
+-156
 	
 D
 D
@@ -645,11 +645,11 @@ D
 D
 	
 
-VRDR
+SA XV
 
-6 novembre
+20 novembre
 
-À l'extérieur
+À domicile
 
   Qualifiés pour les demi-finales
 
