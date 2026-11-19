@@ -62,6 +62,7 @@ J7
 J8
 J9
 J10
+J11
 CLASSEMENT
 Rang
 	
@@ -124,34 +125,34 @@ Provence Rugby
 	
 41
 	
-10
+11
 	
 9
 	
 1
 	
-0
+1
 	
 3
 	
-324
+354
 	
-200
+241
 	
-+124
++113
 	
-V
 V
 V
 N
 V
+D
 	
 
-FCG
+USM
 
-19 novembre
+27 novembre
 
-À l'extérieur
+À domicile
 
 Oyonnax Rugby
 	
@@ -186,6 +187,39 @@ CAB
 
 À domicile
 
+FC Grenoble Rugby
+	
+34
+	
+11
+	
+8
+	
+0
+	
+3
+	
+2
+	
+329
+	
+271
+	
++58
+	
+V
+V
+V
+D
+V
+	
+
+RCN
+
+27 novembre
+
+À l'extérieur
+
 CA Brive
 	
 31
@@ -218,39 +252,6 @@ OYO
 20 novembre
 
 À l'extérieur
-
-FC Grenoble Rugby
-	
-30
-	
-10
-	
-7
-	
-0
-	
-3
-	
-2
-	
-288
-	
-241
-	
-+47
-	
-V
-V
-V
-V
-D
-	
-
-PR
-
-19 novembre
-
-À domicile
 
 Soyaux-Angoulême XV
 	

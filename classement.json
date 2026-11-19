@@ -7,10 +7,10 @@
             "equipe": "Provence Rugby",
             "victoires": 9,
             "nuls": 1,
-            "defaites": 0,
-            "pointsPour": 324,
-            "pointsContre": 200,
-            "difference": 124,
+            "defaites": 1,
+            "pointsPour": 354,
+            "pointsContre": 241,
+            "difference": 113,
             "points": 41
         },
         {
@@ -26,6 +26,17 @@
         },
         {
             "position": 3,
+            "equipe": "FC Grenoble Rugby",
+            "victoires": 8,
+            "nuls": 0,
+            "defaites": 3,
+            "pointsPour": 329,
+            "pointsContre": 271,
+            "difference": 58,
+            "points": 34
+        },
+        {
+            "position": 4,
             "equipe": "CA Brive",
             "victoires": 7,
             "nuls": 0,
@@ -34,17 +45,6 @@
             "pointsContre": 238,
             "difference": 98,
             "points": 31
-        },
-        {
-            "position": 4,
-            "equipe": "FC Grenoble Rugby",
-            "victoires": 7,
-            "nuls": 0,
-            "defaites": 3,
-            "pointsPour": 288,
-            "pointsContre": 241,
-            "difference": 47,
-            "points": 30
         },
         {
             "position": 5,
