@@ -63,6 +63,7 @@ J8
 J9
 J10
 J11
+J12
 CLASSEMENT
 Rang
 	
@@ -187,6 +188,39 @@ USM
 
 À domicile
 
+CA Brive
+	
+36
+	
+12
+	
+8
+	
+0
+	
+4
+	
+4
+	
+422
+	
+296
+	
++126
+	
+D
+V
+V
+D
+V
+	
+
+ASBH
+
+4 décembre
+
+À l'extérieur
+
 FC Grenoble Rugby
 	
 34
@@ -219,39 +253,6 @@ RCN
 27 novembre
 
 À l'extérieur
-
-CA Brive
-	
-31
-	
-11
-	
-7
-	
-0
-	
-4
-	
-3
-	
-358
-	
-270
-	
-+88
-	
-D
-D
-V
-V
-D
-	
-
-BO
-
-26 novembre
-
-À domicile
 
 Stade Aurillacois
 	
@@ -323,34 +324,34 @@ Biarritz Olympique PB
 	
 28
 	
-11
+12
 	
 6
 	
 1
 	
-4
+5
 	
 2
 	
-305
+331
 	
-327
+391
 	
--22
+-60
 	
-N
 D
 V
 D
 V
+D
 	
 
-CAB
+PR
 
-26 novembre
+3 décembre
 
-À l'extérieur
+À domicile
 
 Valence Romans
 	
